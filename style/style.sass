@@ -1,5 +1,75 @@
+@use 'variables'
+  
 *
   margin: 0
   padding: 0
   box-sizing: border-box
+  font-family: "inter", sans-serif
+
+body
+  height: 100%
+  max-width: 100%
+  background-color: variables.$light-blue-100
+  padding: 40px 
+
+.brand-alura
+  margin-bottom: 80px
+
+.container
+  margin-left: 200px
+
+.input-crip
+  border: none
+  background-color: variables.$light-blue-100
+  resize: none
+  font-size: 32px
+  color: variables.$light-dark-300
+
+.input-crip::placeholder
+  color: variables.$light-dark-300
+  font-size: 32px
+
+.input-crip:focus
+  outline: none
+
+.notice-container
+  display: flex
+  gap: 8px
+  align-items: center
+  margin-bottom: 1em
+  .notice-text
+    color: variables.$gray-400
+
+.btn-container
+  display: flex
+  
+
+.crip
+  background-color: variables.$light-dark-300
+  width: 328px
+  height: 67px
+  border-radius: 24px
+  color: white
+  border: none
+  font-weight: 400
+  cursor: pointer
+  margin-right:1em 
+
+.descrip
+  background-color: variables.$light-blue-200
+  width: 328px
+  height: 67px
+  border-radius: 24px
+  color: variables.$light-dark-300
+  border: 1px solid variables.$light-dark-300
+  font-weight: 500
+  cursor: pointer
+
+
+aside
+  display: none
+
+
+
+
 

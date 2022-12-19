@@ -1,5 +1,91 @@
+/*=====================*/
+/*=====================*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+body {
+  height: 100%;
+  max-width: 100%;
+  background-color: #F3F5FC;
+  padding: 40px;
+}
+
+.brand-alura {
+  margin-bottom: 80px;
+}
+
+.container {
+  margin-left: 200px;
+}
+
+.input-crip {
+  border: none;
+  background-color: #F3F5FC;
+  resize: none;
+  font-size: 32px;
+  color: #0A3871;
+}
+
+.input-crip::-moz-placeholder {
+  color: #0A3871;
+  font-size: 32px;
+}
+
+.input-crip:-ms-input-placeholder {
+  color: #0A3871;
+  font-size: 32px;
+}
+
+.input-crip::placeholder {
+  color: #0A3871;
+  font-size: 32px;
+}
+
+.input-crip:focus {
+  outline: none;
+}
+
+.notice-container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.notice-container .notice-text {
+  color: #495057;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.crip {
+  background-color: #0A3871;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  color: white;
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.descrip {
+  background-color: #D8DFE8;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  color: #0A3871;
+  border: 1px solid #0A3871;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+aside {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
