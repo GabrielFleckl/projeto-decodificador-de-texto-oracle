@@ -23,12 +23,11 @@ body {
 }
 
 .container {
-  padding: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: 250px;
+  gap: 10px;
 }
 
 .input-crip {
@@ -85,8 +84,15 @@ body {
   color: white;
   border: none;
   font-weight: 400;
+  font-size: 1.5em;
   cursor: pointer;
   margin-right: 1em;
+  transition: 0.3s;
+}
+.crip:hover {
+  color: #0A3871;
+  background-color: white;
+  border: 1px solid #0A3871;
 }
 
 .descrip {
@@ -96,15 +102,22 @@ body {
   border-radius: 24px;
   color: #0A3871;
   border: 1px solid #0A3871;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 1.5em;
   cursor: pointer;
+  transition: 0.3s;
+}
+.descrip:hover {
+  color: white;
+  background-color: #609ED4;
+  border: none;
 }
 
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 80px;
   margin: 40px 0px 40px 0px;
 }
 
