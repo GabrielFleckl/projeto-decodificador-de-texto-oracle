@@ -137,6 +137,23 @@ aside h1 {
   color: #343A40;
 }
 
+.input-descrip {
+  resize: none;
+  border: none;
+  background-color: white;
+  font-size: 32px;
+  color: #0A3871;
+  max-width: 350px;
+}
+
+.input-descrip:focus {
+  outline: none;
+}
+
 .invisible {
   display: none;
+}
+
+.hide {
+  visibility: hidden;
 }/*# sourceMappingURL=style.css.map */
