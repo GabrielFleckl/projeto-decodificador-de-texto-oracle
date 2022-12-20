@@ -138,6 +138,7 @@ aside h1, aside p {
 }
 aside h1 {
   margin-bottom: 1em;
+  color: #343A40;
 }
 
 .invisible {
