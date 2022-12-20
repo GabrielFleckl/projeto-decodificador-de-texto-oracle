@@ -41,10 +41,25 @@ function copy() {
   navigator.clipboard.writeText(textAreaDescrip.innerHTML)
   alert("Texto Copiado!")
 
-  textAreaDescrip.innerHTML = ""
+  textAreaDescrip.innerHTML = "Nenhuma Mensagem!"
+
 
   textAreaCrip.value = ""
 }
+
+if (window.screen.width > 1000) {
+
+  textAreaCrip.setAttribute("rows", "5")
+  textAreaCrip.setAttribute("cols", "14")
+
+} 
+
+
+
+
+
+
+
 
 
 

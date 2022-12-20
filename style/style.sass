@@ -24,8 +24,8 @@ body
   display: flex
   flex-direction: column
   justify-content: flex-start
-  align-items: center
-  gap: 10px
+  align-items: flex-start
+  gap: 50px
 
 .input-crip
   border: none
@@ -135,6 +135,46 @@ aside
 
 .hide
   visibility: hidden
+
+@media screen and (max-width: 1300px) 
+  .wrapper
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 10px
+
+  .btnwrapper
+    flex-direction: column
+    gap: 15px
+    .crip
+      margin-right:0 
+
+  .btn-copy
+    position: static
+    display: none
+  
+  .input-crip
+    display: flex
+    justify-content: center
+    align-content: center
+    margin-top: 100px
+
+  aside
+    max-width: 400px
+    height: 100%
+    padding: 20px
+    margin: 20px
+
+  .illustration
+    svg
+      display: none
+
+  .brand-alura
+    display: none
+
+  .container
+    align-items: center
 
 
 
