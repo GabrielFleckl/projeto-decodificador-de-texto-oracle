@@ -1,7 +1,7 @@
 let textAreaCrip = document.querySelector('.input-crip');
 let textAreaDescrip = document.querySelector('.input-descrip');
 
-
+let btnCopy = document.querySelector('.btn-copy')
 let btnCrip = document.querySelector('.crip');
 let btnDescrip = document.querySelector('.descrip');
 
@@ -13,18 +13,38 @@ function cripText() {
 
   textAreaDescrip.classList.remove("invisible")
 
-  let letterA = textAreaCrip.value.replace("a", "ai",)
-  textAreaCrip.value.replace("e", "enter")
-  textAreaCrip.value.replace("i", "imes")
-  textAreaCrip.value.replace("o", "ober")
-  textAreaCrip.value.replace("u", "ufat")
+  btnCopy.classList.remove('hide')
 
-  textAreaDescrip.innerHTML = letterA
+  let textcrip = textAreaCrip.value.replaceAll('e', 'enter')
+    .replaceAll('i', 'imes')
+    .replaceAll('a', 'ai')
+    .replaceAll('o', 'ober')
+    .replaceAll('u', 'ufat');
+
+  textAreaDescrip.innerHTML = textcrip
 
   textAreaCrip.value = ""
-
 }
 
+function decripText() {
+
+  let textdescrip = textAreaCrip.value.replaceAll('enter', 'e')
+    .replaceAll('imes', 'i')
+    .replaceAll('ai', 'a')
+    .replaceAll('ober', 'o')
+    .replaceAll('ufat', 'u');
+
+  textAreaDescrip.innerHTML = textdescrip
+}
+
+function copy() {
+  navigator.clipboard.writeText(textAreaDescrip.innerHTML)
+  alert("Texto Copiado!")
+
+  textAreaDescrip.innerHTML = ""
+
+  textAreaCrip.value = ""
+}
 
 
 

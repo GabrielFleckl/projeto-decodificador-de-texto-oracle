@@ -144,6 +144,12 @@ aside h1 {
   font-size: 32px;
   color: #0A3871;
   max-width: 350px;
+  word-wrap: break-word;
+}
+
+.btn-copy {
+  position: absolute;
+  bottom: 70px;
 }
 
 .input-descrip:focus {
