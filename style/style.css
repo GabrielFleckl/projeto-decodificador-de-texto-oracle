@@ -90,13 +90,11 @@ body {
   transition: 0.3s;
 }
 .crip:hover {
-  color: #0A3871;
-  background-color: white;
-  border: 1px solid #0A3871;
+  background-color: #072B61;
 }
 
 .descrip {
-  background-color: #D8DFE8;
+  background-color: #F3F5FC;
   width: 328px;
   height: 67px;
   border-radius: 24px;
@@ -108,9 +106,7 @@ body {
   transition: 0.3s;
 }
 .descrip:hover {
-  color: white;
-  background-color: #609ED4;
-  border: none;
+  background-color: #D8DFE8;
 }
 
 .wrapper {
