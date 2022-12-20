@@ -123,6 +123,9 @@ aside {
 aside h1, aside p {
   text-align: center;
 }
+aside h1 {
+  margin-bottom: 1em;
+}
 
 .invisible {
   display: none;
