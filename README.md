@@ -28,9 +28,6 @@ Aqui você pode conferir o layout. <br>
 ---
 
 
-
-<br>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
