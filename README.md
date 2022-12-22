@@ -32,7 +32,7 @@ Aqui você pode conferir o layout. <br>
 <br>
 
   <p align="center" >
-  <img alt="layout-web" src="./img/mobile.png" width="50%"> 
+  <img alt="layout-web" src="./img/mobile.png" width="40%"> 
   </p>
 
 ---
