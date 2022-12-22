@@ -7,7 +7,7 @@
   font-family: "inter", sans-serif
 
 body
-  height: 100vh
+  min-height: 100vh
   background-color: variables.$light-blue-100
   display: flex
   align-items: center
@@ -26,6 +26,8 @@ body
   font-size: 32px
   color: variables.$light-dark-300
   margin-bottom: 3em
+  min-width: 622px
+  height: 273px
   
 .input-crip::placeholder
   color: variables.$light-dark-300
@@ -79,7 +81,8 @@ body
   justify-content: center
   align-items: center
   gap: 80px
-  margin: 40px 0px 40px 0px
+  margin-left: 77px
+  
 
 aside
   display: flex
@@ -121,7 +124,93 @@ aside
 .hide
   visibility: hidden
 
+
+@media screen and (max-width: 1255px) 
+
+  .crip
+    margin-bottom: 10px
+    margin-right: 0
+
+  .wrapper
+    gap: 40px
+    
+
+  aside
+    margin-right: 0px
+
+  .input-crip
+    min-width: 200px
+
+  main
+    width: 360px
+
+
 @media screen and (max-width: 1000px) 
+
+  .wrapper
+    display: flex
+    justify-content: center
+    margin: 0
+    flex-direction: column
+    gap: 15px 
+    align-items: center
+    
+
+  body
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    overflow: hidden
+    align-items: center
+    
+
+  main
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    margin: auto
+
+  aside
+    justify-content: center
+    align-items: center
+    width: 350px
+    max-height:300px 
+    margin-top: 1em
+    
+
+  .illustration
+    svg
+      display: none
+
+  .btn-container
+    display: flex
+    flex-direction: column
+
+  .input-crip
+    display: flex
+    justify-content: center
+    align-items: center
+    min-width: 150px
+    height: 173px
+    margin-bottom: 1.5em
+    
+  .brand-alura
+    position: static
+    margin: 40px
+
+  header
+    background-color: variables.$light-dark-100
+    width: 100%
+    margin-bottom: 2em
+
+  .crip
+    margin-bottom: 10px
+
+
+
+    
+    
 
 
 
