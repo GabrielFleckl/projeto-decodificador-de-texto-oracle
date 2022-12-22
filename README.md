@@ -23,7 +23,7 @@ Aqui você pode conferir o layout. <br>
 ### Versão Web 🖥️
 
 <br>
-  <img alt="layout-web" src="img/desktop.png" width="100%"> 
+  <img alt="layout-web" src="./img/desktop.png" width="100%"> 
 
 ---
 
