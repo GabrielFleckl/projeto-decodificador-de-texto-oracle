@@ -49,7 +49,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto desenvolvido em formato de challenge durante o programa ONE (Oracle Next Education) para fins de pratica e aprendizado.
+Projeto desenvolvido em formato de challenge durante o programa ONE (Oracle Next Education) para fins de pratica e consolidação de aprendizado.
 
 ## 📝 Licença
 
