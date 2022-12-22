@@ -9,11 +9,11 @@ let btnDescrip = document.querySelector('.descrip');
 function cripText() {
   let illustra = document.querySelector('.illustration')
 
-  illustra.classList.add("hide")
+  illustra.classList.add("invisible")
 
   textAreaDescrip.classList.remove("invisible")
 
-  btnCopy.classList.remove('hide')
+  btnCopy.classList.remove('invisible')
 
   let textcrip = textAreaCrip.value.replaceAll('e', 'enter')
     .replaceAll('i', 'imes')
@@ -27,6 +27,13 @@ function cripText() {
 }
 
 function decripText() {
+  let illustra = document.querySelector('.illustration')
+
+  illustra.classList.add("invisible")
+
+  textAreaDescrip.classList.remove("invisible")
+
+  btnCopy.classList.remove('invisible')
 
   let textdescrip = textAreaCrip.value.replaceAll('enter', 'e')
     .replaceAll('imes', 'i')
@@ -47,12 +54,7 @@ function copy() {
   textAreaCrip.value = ""
 }
 
-if (window.screen.width > 1000) {
 
-  textAreaCrip.setAttribute("rows", "5")
-  textAreaCrip.setAttribute("cols", "14")
-
-} 
 
 
 

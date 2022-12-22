@@ -9,7 +9,6 @@
 
 body {
   height: 100vh;
-  max-width: 100%;
   background-color: #F3F5FC;
   display: flex;
   align-items: center;
@@ -20,14 +19,7 @@ body {
   position: absolute;
   left: 40px;
   top: 40px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 50px;
+  cursor: pointer;
 }
 
 .input-crip {
@@ -36,6 +28,7 @@ body {
   resize: none;
   font-size: 32px;
   color: #0A3871;
+  margin-bottom: 3em;
 }
 
 .input-crip::-moz-placeholder {
@@ -65,11 +58,6 @@ body {
 }
 .notice-container .notice-text {
   color: #495057;
-}
-
-.btn-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .btnwrapper {
@@ -121,12 +109,12 @@ aside {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 550px;
   background-color: #fff;
   border-radius: 32px;
-  padding: 0px 32px 0px 32px;
-  height: 90vh;
-  max-width: 400px;
+  padding: 32px;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.1921568627);
 }
 aside h1, aside p {
@@ -144,12 +132,13 @@ aside h1 {
   font-size: 32px;
   color: #0A3871;
   max-width: 350px;
-  word-wrap: break-word;
+  word-break: break-all;
+  overflow: auto;
+  margin-bottom: 1em;
 }
 
-.btn-copy {
-  position: absolute;
-  bottom: 70px;
+.illustration {
+  margin-top: 1.3em;
 }
 
 .input-descrip:focus {
@@ -162,46 +151,4 @@ aside h1 {
 
 .hide {
   visibility: hidden;
-}
-
-@media screen and (max-width: 1000px) {
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  .btnwrapper {
-    flex-direction: column;
-    gap: 15px;
-  }
-  .btnwrapper .crip {
-    margin-right: 0;
-  }
-  .btn-copy {
-    position: static;
-    display: none;
-  }
-  .input-crip {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 100px;
-  }
-  aside {
-    max-width: 400px;
-    height: 100%;
-    padding: 20px;
-    margin: 20px;
-  }
-  .illustration svg {
-    display: none;
-  }
-  .brand-alura {
-    display: none;
-  }
-  .container {
-    align-items: center;
-  }
 }/*# sourceMappingURL=style.css.map */

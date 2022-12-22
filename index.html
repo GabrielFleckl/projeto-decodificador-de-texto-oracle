@@ -27,8 +27,8 @@
           fill="#0A3871" />
       </svg>
     </header>
-    <main class="container">
-      <textarea class="input-crip" placeholder="Digite seu texto" cols="35" rows="12"></textarea>
+    <main>
+      <textarea class="input-crip" placeholder="Digite seu texto" cols="35" rows="7"></textarea>
       <div class="btn-container">
         <div>
           <div class="notice-container">
@@ -42,15 +42,13 @@
             <p class="notice-text">Apenas letras minúsculas e sem acento.</p>
           </div>
         </div>
-        <div class="btnwrapper">
-          <button onclick="cripText()" class="crip">Criptografar</button>
-          <button onclick="decripText()" class="descrip">Descriptografar</button>
-        </div>
+        <button onclick="cripText()" class="crip">Criptografar</button>
+        <button onclick="decripText()" class="descrip">Descriptografar</button>
       </div>
     </main>
     <aside>
       <div class="input-descrip invisible ">
-        <textarea class="input-descrip " wrap="hard" cols="40" rows="5"></textarea>
+        <textarea class="input-descrip" wrap="hard" cols="40" rows="5"></textarea>
       </div>
       <!--Ilustração aside-->
       <div class="illustration">
@@ -456,7 +454,7 @@
         <h1 class="notice-aside">Nenhuma mensagem encontrada</h1>
         <p class="notice-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
       </div>
-      <div class="btn-copy hide">
+      <div class="btn-copy invisible">
         <button class="descrip" onclick="copy()">
           Copiar
         </button>
